@@ -1,0 +1,53 @@
+.Star {
+  min-width: 200px;
+  min-height: 200px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 3px #fff;
+  margin: 8px;
+  padding: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: block;
+  position: relative;
+}
+
+.Link {
+  color: #3a4858;
+  font-weight: bold;
+}
+
+.Stargazers {
+  display: block;
+  float: right;
+}
+
+.Ellipsis {
+  max-width: 300px;
+  display: block;
+  text-overflow: ellipsis;
+  padding-bottom: 20px;
+}
+
+.Language {
+  line-height: 0.3rem;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 96%;
+  padding: 0px 0px 0px 10px;
+
+  span {
+    font-size: 2.5rem;
+    vertical-align: top;
+    float: right;
+  }
+}
+
+.Hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid 	#ebecee;
+  padding: 0;
+}

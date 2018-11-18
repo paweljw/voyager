@@ -1,0 +1,23 @@
+.Topbar {
+  height: 50px;
+  background: #fff;
+  border-bottom: 2px solid#3a4858;
+  margin: -22px auto 20px auto;
+}
+
+.Brand {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  color: #3a4858;
+}
+
+.Logout {
+  float: right;
+  height: 40px;
+  padding: 0.5rem 1rem;
+  margin: 6px;
+  background: #3a4858;
+  color: #fff;
+  font-size: 1em;
+  vertical-align: middle;
+}
